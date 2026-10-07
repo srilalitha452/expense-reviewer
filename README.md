@@ -287,6 +287,32 @@ Swagger provides an interactive interface for viewing and testing the REST APIs.
 
 ---
 
+## Deployment
+
+The application is deployed and publicly accessible.
+
+- **Frontend & Backend:** Render
+- **Database:** Railway MySQL
+- **Deployment:** Docker
+- **Live Application:** [https://expense-reviewer.onrender.com](https://expense-reviewer.onrender.com)
+- **API Documentation:** [https://expense-reviewer.onrender.com/swagger-ui/index.html](https://expense-reviewer.onrender.com/swagger-ui/index.html)
+
+### Environment Configuration
+
+The application uses environment variables for database credentials and the Gemini API key. No production credentials or API keys are stored in the repository.
+
+Required environment variables include:
+
+- `MYSQLHOST`
+- `MYSQLPORT`
+- `MYSQLDATABASE`
+- `MYSQLUSER`
+- `MYSQLPASSWORD`
+- `GEMINI_API_KEY`
+
+The `.env.example` file contains the required configuration names without real credentials.
+
+
 ## Build
 
 To create the application build:
